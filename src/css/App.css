@@ -1,0 +1,120 @@
+@import url("./Meteo.css");
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+}
+
+#coord {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  color: white;
+  font-size: 23px;
+  font-weight: lighter;
+  width: auto;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.meteoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+/* Custom css select button*/
+
+#selectInput {
+  width: 20%;
+}
+
+#selectInput,
+.dropDown {
+  display: flex;
+  flex-direction: column;
+}
+
+#selectInput button {
+  appearance: none;
+  background-color: #446696;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: lighter;
+  border-radius: 10px;
+  border: 1px solid #446696;
+  padding: 10px;
+}
+
+#selectInput button.active {
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+  background-color: white;
+  color: #446696;
+}
+
+#selectInput button:focus {
+  outline: none;
+}
+
+.dropDown {
+  border-radius: 0 0 10px 10px;
+  border-left: 1px solid #446696;
+  border-right: 1px solid #446696;
+  border-bottom: 1px solid #446696;
+  background-color: white;
+  opacity: 1;
+}
+
+.dropDown hr {
+  width: 90%;
+  border: 0.5px solid #446696;
+  align-self: center;
+}
+
+.option {
+  width: 100%;
+  color: #d5d5d5;
+  font-size: 20px;
+  text-align: left;
+  font-weight: lighter;
+  opacity: 1;
+  padding: 8px;
+}
+
+.dropDown.hidden {
+  opacity: 0;
+}
+
+.fas.fa-chevron-down {
+  font-size: 20px;
+  margin-left: 20px;
+}

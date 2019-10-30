@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="42px" viewBox="0 0 70 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Icon/Fleche</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Fleche" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(35.500000, 21.000000) scale(1, -1) translate(-35.500000, -21.000000) translate(23.000000, 0.000000)">
+            <polygon id="Path-2" fill="#FFFFFF" points="0 0 12.3595506 8.34246575 25 0 12.6404494 42"></polygon>
+            <polygon id="Path-3" fill="#5074AD" transform="translate(6.500000, 21.000000) scale(1, -1) translate(-6.500000, -21.000000) " points="13 0 13 33.6 0 42"></polygon>
+        </g>
+    </g>
+</svg>
